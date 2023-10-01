@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/nurx-style.css">
 </head>
 <body>
-    <!-- wapper or main | test-->
+    <!-- wapper or main-->
     <div id="main">
         <div class="container">
             <div class="section-header">
@@ -37,9 +37,92 @@
                 </div>
             </div>
             <div class="section-hero">
+                <div class="section-hero-layout">
+                    <div class="sh-col-left">
+                        <h1 class="sh-title-hero">
+                            Expert care delivered
+                        </h1>
+                        <p class="sh-description-hero">
+                            Lorem ipsum dolor sit amet consectetur. Ac aliquet fames massa egestas ut non. Fusce tristique aliquam in sed elit. 
+                        </p>
+                        <div class="sh-layout-hero">
+                            <div class="lh-col-general lh-col-world">
+                                <div class="cg-top">
+                                    <h5 class="cb-number">0M+</h5>
+                                </div>
+                                <div class="cg-bottom">
+                                    <p class="cb-description">patients served</p>
+                                </div>
+                            </div>
+                            <div class="lh-col-general lh-col-heart">
+                            <div class="cg-top">
+                                    <h5 class="cb-number">00K</h5>
+                                </div>
+                                <div class="cg-bottom">
+                                    <p class="cb-description">five star reviews</p>
+                                </div>
+                            </div>
+                            <div class="lh-col-general lh-col-bottle">
+                            <div class="cg-top">
+                                    <h5 class="cb-number">000+</h5>
+                                </div>
+                                <div class="cg-bottom">
+                                    <p class="cb-description">medications offered</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="sh-btn-get-started">
+                            Get Started
+                        </a>
+                        <div class="sh-layout-search">
+                            <div class="ls-search-top">
+                                <form action="#" class="hero-search" method="GET">
+                                    <div class="group-field">
+                                        <input type="text" placeholder="What can we help with you with today? " required class="field-search">
+                                        <button type="submit" class="submit-search"></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="ls-search-bottom">
+                                <h6 class="sb-title-result">Other common searches</h6>
+                                <div class="sb-top-result">
+                                    <a class="tr-item-search" href="#">Acne</a>
+                                    <a class="tr-item-search" href="#">Fine lines & wrinkles</a>
+                                    <a class="tr-item-search" href="#">Anxiety</a>
+                                    <a class="tr-item-search" href="#">Depression</a>
+                                    <a class="tr-item-search" href="#">Eyelash Growth</a>
+                                    <a class="tr-item-search" href="#">Hair Loss</a>
+                                    <a class="tr-item-search" href="#">Cold Sores</a>
+                                    <a class="tr-item-search" href="#">Melasma</a>
+                                    <a class="tr-item-search" href="#">All Nurx Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sh-col-right">
+                        <img src="assets/images/hero-slider-cat-expand.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="section-slide">
+                <div class="section-slide-layout">
+                    <ul class="ss-list-slide">
+                        <li class="item-slide nurx-icon-access">24/7 access to care -anytime, anywhere</li>
+                        <li class="item-slide nurx-icon-medications">FDA-approved medications and tests prescribed online</li>
+                        <li class="item-slide nurx-icon-cart">Affordable with or without insurance</li>
+                        <li class="item-slide nurx-icon-messaging">Unlimited messaging with providers</li>
+
+                        <li class="item-slide nurx-icon-access">24/7 access to care -anytime, anywhere</li>
+                        <li class="item-slide nurx-icon-medications">FDA-approved medications and tests prescribed online</li>
+                        <li class="item-slide nurx-icon-cart">Affordable with or without insurance</li>
+                        <li class="item-slide nurx-icon-messaging">Unlimited messaging with providers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-how-it-works">
 
             </div>
-            
         </div>
     </div>
     

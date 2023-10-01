@@ -1,0 +1,270 @@
+/*----------------------------------------------------------------
+ * Style: PAGE HOME
+ *----------------------------------------------------------------*/
+#main{
+    .container{
+        .section-hero{
+            background: #F7F7F4;
+            .section-hero-layout{
+                max-width: 1488px;
+                margin: auto;
+                padding: 0 24px;
+                display: flex;
+                .sh-col-left{
+                    width: 100%;
+                    padding: 53px 0;
+                    max-width: 480px;
+                    margin: 0 auto;
+                    .sh-title-hero{
+                        color: #000;
+                        font-family: Graphik;
+                        font-size: 56px;
+                        font-style: normal;
+                        font-weight: 600;
+                        // line-height: 120%;
+                        letter-spacing: 1.12px;
+                    }
+                    .sh-description-hero{
+                        color: #000;
+                        font-family: Graphik;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-top: 24px;
+                    }
+                    .sh-layout-hero{
+                        display: flex;
+                        gap: 16px;
+                        margin-top: 24px;
+                        .lh-col-general{
+                            .cg-top{
+                                .cb-number{
+                                    color: #000;
+                                    font-family: Graphik;
+                                    font-size: 32px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 32px;
+                                    &::before{
+                                        content: '';
+                                        display: inline-block;
+                                        margin: 0 4px 0 0;
+                                        background-repeat: no-repeat;
+                                    }
+                                }
+                            }
+                            .cg-bottom{
+                                .cb-description{
+                                    color:#000;
+                                    text-align: center;
+                                    font-family: Graphik;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 24px;
+                                }
+                            }
+                            &.lh-col-world{
+                                .cg-top{
+                                    .cb-number{
+                                        &:before{
+                                            width: 25px;
+                                            height: 25px;
+                                            background-image: url('../images/icon-world.svg');
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                            &.lh-col-heart{
+                                .cg-top{
+                                    .cb-number{
+                                        &:before{
+                                            width: 25px;
+                                            height: 25px;
+                                            background-image: url('../images/icon-heart.svg');
+                                        }
+                                    }
+                                }
+                            }
+                            &.lh-col-bottle{
+                                .cg-top{
+                                    .cb-number{
+                                        &:before{
+                                            width: 17px;
+                                            height: 25px;
+                                            background-image: url('../images/icon-bottle.svg');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .sh-btn-get-started{
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Graphik;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        // line-height: 20px;
+                        letter-spacing: 2.16px;
+                        text-transform: uppercase;
+                        padding: 20px 40px;
+                        border-radius: 100px;
+                        border: 1px solid #000;
+                        background: #000;
+                        transition: all 0.4s ease-out;
+                        margin-top: 24px;
+                        &:hover{
+                            background: transparent;
+                            color: #000;
+                        }
+                    }
+                    .sh-layout-search{
+                        margin-top: 24px;
+                        .ls-search-top{
+                            form.hero-search{
+                                .group-field{
+                                    position: relative;
+                                    width: 100%;
+                                    max-width: 480px;
+                                    .field-search{
+                                        padding: 12px 70px 12px 24px;
+                                        border-radius: 100px;
+                                        border: 1px solid #000;
+                                        background: #FFF;
+                                        font-family: Graphik;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 20px;
+                                        width: 100%;
+                                        display: flex;
+                                        max-width: 384px;
+                                    }
+                                    .submit-search{
+                                        border: none;
+                                        padding: 10px 24px;
+                                        background: transparent;
+                                        cursor: pointer;
+                                        position: absolute;
+                                        right: 0;
+                                        border-radius: 50%;
+                                        top: 0;
+                                        &:before{
+                                            content: '';
+                                            display: inline-block;
+                                            background-repeat: no-repeat;
+                                            width: 25px;
+                                            height: 25px;
+                                            background-image: url('../images/icon-search.svg');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .ls-search-bottom{
+                            margin-top: 24px;
+                            .sb-title-result{
+                                color: #000;
+                                font-family: Graphik;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 600;
+                            }
+                            .sb-top-result{
+                                max-width: 480px;
+                                .tr-item-search{
+                                    color:  #000;
+                                    font-family: Graphik;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 20px;
+                                    display: inline-block;
+                                    margin: 16px 24px 0 0;
+                                    border-bottom: 1px solid #000;
+                                    &::before{
+                                        content: '';
+                                        display: inline-block;
+                                        background-repeat: no-repeat;
+                                        width: 14px;
+                                        height: 14px;
+                                        background-image: url('../images/icon-search.svg');
+                                        background-size: 14px;
+                                        margin: 0 6px -2px 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .section-slide{
+            border-bottom: 1px solid #000;
+            border-top: 1px solid #000;
+            .section-slide-layout{
+                display: block;
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+                height: 64px;
+                .ss-list-slide{
+                    margin: 16px 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    gap: 40px;
+                    width: 1000vh;
+                    position: absolute;
+                    
+                    .item-slide{
+                        color: #000;
+                        font-family: Graphik;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                        letter-spacing: 1.56px;
+                        text-transform: uppercase;
+                        align-items: center;
+                        gap: 16px;
+                        &:before{
+                            content: "";
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                        }
+                        &.nurx-icon-access::before{
+                            width: 33px;
+                            height: 32px;
+                            background-image: url('../images/icon-access.svg');
+                        }
+                        &.nurx-icon-medications::before{
+                            width: 27px;
+                            height: 32px;
+                            background-image: url('../images/icon-medications.svg');
+                        }
+                        &.nurx-icon-cart::before{
+                            width: 46px;
+                            height: 32px;
+                            background-image: url('../images/icon-cart.svg');
+                        }
+                        &.nurx-icon-messaging::before{
+                            width: 36px;
+                            height: 32px;
+                            background-image: url('../images/icon-messaging.svg');
+                        }
+                    }
+                }
+            }
+        }
+        .section-how-it-works{
+            height: 500px;
+            background: #F7F7F4;
+        }
+    }
+}

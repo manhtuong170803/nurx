@@ -96,10 +96,20 @@
                                     letter-spacing: 1.44px;
                                     text-transform: uppercase;
                                     text-decoration: none;
-                                    .nurx-btn-menu{
-
+                                    display: inline;
+                                    &.nurx-btn-menu{
+                                        color: #fff;
+                                        padding: 12px 16px;
+                                        border-radius: 100px;
+                                        border: 1px solid #000;
+                                        background: #000;
+                                        transition: all 0.4s ease-out;
+                                        &:hover{
+                                            color: #000;
+                                            background: #fff;
+                                        }
                                     }
-                                    .menu-has-child{
+                                    &.menu-has-child{
                                         &:after{
                                             content: '';
                                             width: 8px;
@@ -107,6 +117,16 @@
                                             display: inline-block;
                                             background: url('../images/icon-dropdown.svg');
                                             margin: 0 0 2px 8px;
+                                        }
+                                    }
+                                    &.nurx-icon-login{
+                                        &:before{
+                                            content: '';
+                                            width: 16px;
+                                            height: 16px;
+                                            display: inline-block;
+                                            background: url('../images/icon-login.svg');
+                                            margin: 0px 8px -3px 0;
                                         }
                                     }
                                 }
