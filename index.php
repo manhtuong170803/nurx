@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/nurx-style.css">
 </head>
 <body>
-    <!-- wapper or main-->
+    <!-- wapper or main | test-->
     <div id="main">
         <div class="container">
             <div class="section-header">
