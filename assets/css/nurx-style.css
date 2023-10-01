@@ -1,0 +1,126 @@
+/*----------------------------------------------------------------
+ * Import
+ *----------------------------------------------------------------*/
+/*----------------------------------------------------------------
+ * Font: Graphik
+ *----------------------------------------------------------------*/
+@font-face {
+  font-family: Graphik;
+  font-weight: 700;
+  src: url(../fonts/Graphik/GraphikBold.otf) format("opentype"); }
+
+@font-face {
+  font-family: Graphik;
+  font-weight: 600;
+  src: url(../fonts/Graphik/GraphikSemiBold.otf) format("opentype"); }
+
+@font-face {
+  font-family: Graphik;
+  font-weight: 500;
+  src: url(../fonts/Graphik/GraphikMedium.otf) format("opentype"); }
+
+@font-face {
+  font-family: Graphik;
+  font-weight: 400;
+  src: url(../fonts/Graphik/GraphikRegular.otf) format("opentype"); }
+
+@font-face {
+  font-family: Graphik;
+  font-weight: 300;
+  src: url(../fonts/Graphik/GraphikExtralight.otf) format("opentype"); }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/*----------------------------------------------------------------
+ * Style: Header
+ *----------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Graphik; }
+
+#main .container .section-header {
+  border-bottom: 1px solid #000; }
+  #main .container .section-header .sh-notification_bar {
+    background: #000;
+    padding: 16px 16px;
+    text-align: center; }
+    #main .container .section-header .sh-notification_bar .nb-text {
+      color: #FFF;
+      text-align: center;
+      font-family: Graphik;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase; }
+      #main .container .section-header .sh-notification_bar .nb-text .get-stated {
+        color: #FFF;
+        font-family: Graphik;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        margin-left: 16px; }
+  #main .container .section-header .sh-nav {
+    display: flex;
+    max-width: 1155px;
+    margin: auto;
+    padding: 24px;
+    align-items: center; }
+    #main .container .section-header .sh-nav .nav-left {
+      width: 100%; }
+      #main .container .section-header .sh-nav .nav-left .nav-menu-dropdown {
+        color: #000;
+        font-family: Graphik;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-decoration: none; }
+        #main .container .section-header .sh-nav .nav-left .nav-menu-dropdown:after {
+          content: '';
+          width: 8px;
+          height: 5px;
+          display: inline-block;
+          background: url("../images/icon-dropdown.svg");
+          margin: 0 0 2px 8px; }
+    #main .container .section-header .sh-nav .nav-center {
+      width: 100px;
+      padding: 0 16px; }
+    #main .container .section-header .sh-nav .nav-right {
+      width: 100%; }
+      #main .container .section-header .sh-nav .nav-right .nav-menu ul.menu-nurx {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        justify-content: end;
+        padding: 0;
+        width: 100%; }
+        #main .container .section-header .sh-nav .nav-right .nav-menu ul.menu-nurx li.menu-item .link-menu-item {
+          color: #000;
+          font-family: Graphik;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 600;
+          letter-spacing: 1.44px;
+          text-transform: uppercase;
+          text-decoration: none; }
+          #main .container .section-header .sh-nav .nav-right .nav-menu ul.menu-nurx li.menu-item .link-menu-item .menu-has-child:after {
+            content: '';
+            width: 8px;
+            height: 5px;
+            display: inline-block;
+            background: url("../images/icon-dropdown.svg");
+            margin: 0 0 2px 8px; }
